@@ -37,6 +37,7 @@ public class TestMyListViewActivity extends AppCompatActivity implements MyListV
             @Override
             public void run() {
                 page=0;
+//                
                 data.removeAll(data);
                 data.addAll(TestData.getTestData(page++));
                 myListView.stopRefresh();
